@@ -1,1 +1,60 @@
+.App {
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-size: cover !important;
+  height: 82vh;
+  padding-top: 10px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.weather{
+  text-align:center;
+  margin-top:2rem;
+}
+
+
+
+.main-content {
+  background: #333333;
+  z-index: 5555;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+}
+.actions,
+.action {
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer !important;
+  text-align: center !important;
+}
+
+.main-content {
+  div {
+    flex: 1;
+    color: #adabab;
+    padding: 5px;
+    font-size: 13px;
+  }
+}
+.time-zone{
+  font-weight: 500;
+  font-size: 18px;
+}
+.weather-wrap{
+  font-weight: 700;
+  font-size: 24px;
+}
+.wrap-text{
+  font-weight: 600;
+  font-size: 18px;
+}
+
 
